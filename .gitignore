@@ -1,0 +1,3 @@
+*.pyc
+.envrc
+zappa_settings.json

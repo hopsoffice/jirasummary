@@ -1,0 +1,14 @@
+{
+    "dev": {
+        "app_function": "app.main",
+        "profile_name": "hopsqa",
+        "project_name": "jirasummary",
+        "runtime": "python3.8",
+        "s3_bucket": "zappa-qntpy4jm6",
+         "environment_variables": {
+            "jira_username": null,
+            "jira_token": null,
+            "jira_baseurl": null
+        }
+    }
+}

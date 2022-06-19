@@ -1,0 +1,4 @@
+export jira_username=
+export jira_token=
+export jira_baseurl=
+export secret_key=
