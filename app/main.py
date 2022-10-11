@@ -40,7 +40,7 @@ def isssues():
         abort(401)
     payload = request.get_json()
     result = {}
-    for issue in set(re.findall('[A-Za-z]{3}\-[0-9]+', payload['text'])):
+    for issue in set(re.findall('[A-Za-z]+\-[0-9]+', payload['text'])):
         found = get_issue(issue)
         if found:
             result[issue] = found['fields']['summary']

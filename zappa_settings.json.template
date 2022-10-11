@@ -8,7 +8,8 @@
          "environment_variables": {
             "jira_username": null,
             "jira_token": null,
-            "jira_baseurl": null
+            "jira_baseurl": null,
+            "secret_key": null
         }
     }
 }
